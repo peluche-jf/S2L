@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Secrets - NUNCA FAÇA COMMIT DE ARQUIVOS COM CHAVES
+config/secrets.yaml
+
+# IDE / Editor specific files
+.vscode/
+.idea/

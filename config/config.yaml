@@ -1,0 +1,30 @@
+# Parâmetros Estratégicos do Sol2Lana v2.2
+
+# Estratégia "Ignição Degen"
+degen_engine:
+  min_tvl_usd: 6666
+  volume_activity_ratio: 0.80  # 80%
+  volume_to_tvl_multiplier: 6.4
+  diversification_pools: 3 # Alocar nas top 3 pools
+
+# Estratégia de Alocação DLMM (Meteora)
+dlmm_allocation:
+  max_bins: 18
+  primary_allocation_percent: 0.80 # 80%
+  secondary_allocation_percent: 0.20 # 20%
+
+# Gerenciamento de Risco
+risk_management:
+  adaptive_trailing_stop:
+    bollinger_band_length: 20
+    bollinger_band_std_dev: 2.0
+
+# Estrutura de Taxas do Protocolo
+fees:
+  performance_fee_percent: 0.12 # 12%
+  access_fee_percent: 0.05 # 0.05%
+  owner_fee_percent_of_revenue: 0.01 # 1% da receita líquida do protocolo
+
+# Governança
+governance:
+  min_stake_to_vote_in_btc: 0.1
